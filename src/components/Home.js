@@ -6,7 +6,7 @@ import {
   CardTitle,
   CardText,
 } from "@cdk-uip/react-card"; // CDK React component. From CDK Global.
-import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import TaskList from './TaskList';
 
 // The appearance of the home page is defined in the Home component.
