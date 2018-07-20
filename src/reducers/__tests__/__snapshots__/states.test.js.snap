@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches states 1`] = `
+Array [
+  Object {
+    "type": "STATES_GET_REQUEST",
+  },
+  Object {
+    "response": "[\\"a\\",\\"b\\",\\"c\\"]",
+    "type": "STATES_GET_RECEIVE",
+  },
+]
+`;
+
+exports[`handles STATES_CLEAR 1`] = `
+Object {
+  "list": Array [],
+  "status": Object {
+    "error": "",
+    "isFetching": false,
+  },
+}
+`;
+
+exports[`handles STATES_CLEAR_ERROR 1`] = `
+Object {
+  "list": Array [],
+  "status": Object {
+    "error": "",
+    "isFetching": false,
+  },
+}
+`;
+
+exports[`handles STATES_GET_ERROR 1`] = `
+Object {
+  "list": Array [],
+  "status": Object {
+    "error": "error",
+    "isFetching": false,
+  },
+}
+`;
+
+exports[`handles STATES_GET_RECEIVE 1`] = `
+Object {
+  "list": Array [
+    "a",
+    "b",
+    "c",
+  ],
+  "status": Object {
+    "error": "",
+    "isFetching": false,
+  },
+}
+`;
+
+exports[`handles STATES_GET_REQUEST 1`] = `
+Object {
+  "list": Array [],
+  "status": Object {
+    "error": "",
+    "isFetching": true,
+  },
+}
+`;
+
+exports[`handles fetch errors 1`] = `
+Array [
+  Object {
+    "type": "STATES_GET_REQUEST",
+  },
+  Object {
+    "apierror": [Error: An error occurred],
+    "type": "STATES_GET_ERROR",
+  },
+]
+`;
+
+exports[`returns the initial state 1`] = `
+Object {
+  "list": Array [],
+  "status": Object {
+    "error": "",
+    "isFetching": false,
+  },
+}
+`;

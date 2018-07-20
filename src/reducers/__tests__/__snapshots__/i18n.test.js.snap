@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles I18N_LANGUAGE 1`] = `
+Object {
+  "language": "lang",
+  "locale": "en-GB",
+}
+`;
+
+exports[`handles I18N_LOCALE 1`] = `
+Object {
+  "language": "en-GB",
+  "locale": "locale",
+}
+`;
+
+exports[`returns the initial state 1`] = `
+Object {
+  "language": "en-GB",
+  "locale": "en-GB",
+}
+`;

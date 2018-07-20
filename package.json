@@ -1,0 +1,44 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cdk-uip/icons": "^1.2.1",
+    "@cdk-uip/react": "^4.0.0",
+    "@cdkglobal/cdk-scripts": "^3.4.0",
+    "@cdkglobal/react-core": "^1.1.0",
+    "element-dataset": "^2.2.6",
+    "jest-fetch-mock": "^1.4.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-intl": "^2.4.0",
+    "react-redux": "^5.0.6",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.2.0",
+    "redux": "^3.7.2",
+    "redux-mock-store": "^1.5.1",
+    "redux-thunk": "^2.2.0",
+    "typeface-roboto": "0.0.45"
+  },
+  "scripts": {
+    "start": "cdk-scripts start",
+    "build": "cdk-scripts build",
+    "test": "cdk-scripts test --env=jsdom",
+    "coverage": "cdk-scripts test --env=jsdom --coverage",
+    "eject": "cdk-scripts eject",
+    "precommit": "cdk-scripts precommit",
+    "prettier": "cdk-scripts prettier",
+    "vercheck": "cdk-scripts vercheck",
+    "storybook": "cdk-scripts storybook",
+    "storybook:build": "cdk-scripts storybook --build",
+    "extract-messages": "cdk-scripts extract-messages",
+    "verify-messages": "cdk-scripts verify-messages",
+    "refresh-messages": "cdk-scripts refresh-messages",
+    "analyze": "cdk-scripts analyze"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
